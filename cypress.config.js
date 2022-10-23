@@ -11,6 +11,7 @@ module.exports = defineConfig({
   json: false,
   timestamp: "mmddyyyy_HHMMss"},
   projectId: 'yt3n6j',
+  baseUrl: "https://alura-fotos.herokuapp.com",
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
